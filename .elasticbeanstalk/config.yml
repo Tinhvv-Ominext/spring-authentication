@@ -1,0 +1,20 @@
+branch-defaults:
+  master:
+    environment: null
+    group_suffix: null
+global:
+  application_name: java-demo
+  branch: null
+  default_ec2_keyname: tinhvv-app-key
+  default_platform: Java 8 running on 64bit Amazon Linux
+  default_region: ap-northeast-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: eb-cli
+  repository: null
+  sc: git
+  workspace_type: Application
+deploy:
+  artifact: target/demo-0.0.1-SNAPSHOT.jar
